@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css" >
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -105,6 +107,7 @@
       <section>
         <h2>Напишите нам</h2>
         <form action="https://echo.htmlacademy.ru" method="post">
+          <button type="submit"><img src="img/close-cross.svg" alt="Закрыть"></button>  
           <p>
             <label for="appointment-name">Ваше имя</label>
             <input id="appointment-name" type="text" name="name" placeholder="Имя Фамилия">
@@ -115,7 +118,7 @@
           </p>
           <p>
             <label for="name">Текст письма</label>
-            <input id="name" type="text" name="text" placeholder="В свободной форме">
+            <textarea name="text" id="name">Текст письма</textarea>
           </p>
             <button type="submit">Отправить</button>
         </form>
