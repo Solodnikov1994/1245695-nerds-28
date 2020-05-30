@@ -43,45 +43,100 @@ img {
 }
 
 header {
-	line-height: 30px;
-	background-color: #EEEEEE;
-	text-transform: uppercase;
+	background-color: #EEEEEE;	
 }
 
-nav a {
-	color: black;
-}
-
-nav ul {
+header ul {
 	list-style: none;
 }
 
-h1,
+.navigation-title {
+	list-style: none;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+h1 {
+    font-size: 55px;
+	line-height: 55px;
+	text-align: center;
+} 
+
 h2 {
     font-size: 45px;
 	line-height: 53px;
-	text-align: center;
 }
 
-h3 {
+.main-information {
+	color: black;
+}
+
+.information-title {
+	font-weight: bold;
 	font-size: 24px;
 	line-height: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.information-text  {
+	text-align: center;
+	color: #28136;
+}
+
+.main-footer {
+	color: black;
+}
+
+footer ul {
+	list-style: none;
+	text-align: center;
+}
+
+.footer-frendship {
 	font-weight: bold;
-	text-transform: uppercase;
+	font-size: 36px;
+	line-height: 36px;
+	color: #000000;
 	text-align: center;
 }
 
-section p {
-    color: #28136;
+.footer-discount {
+	font-size: 16px;
+	line-height: 22px;
+	color: #444444;
+	text-align: center;
+}
+
+.grid {
+	font-size: 18px;
+    line-height: 30px;
     text-align: center;
+    text-transform: uppercase;
 }
 
-section a {
+.grid1 {
+	font-size: 16px;
+    line-height: 19px;
+    color: #28136;
+    list-style: none;
+}
+
+.main-store {
+	color: black;
+}
+
+.store-title {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 30px;
 	text-transform: uppercase;
-	color: red;
 	text-align: center;
+    color: #000000;
 }
 
-div {
-	text-align: center;
-}
+.store-text  {
+	 line-height: 18px;
+	 text-align: center;
+	 color: #666666;
