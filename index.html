@@ -168,18 +168,20 @@
         <div class="input-field2">
           <h2 class="input-field3">Напишите нам</h2>
           <button type="button" class="close"><img src="img/close-cross.svg" width="21" height="21" alt="Закрыть"></button>
-          <p class="input-field4">
-            <label for="appointment-name">Ваше имя:</label>
-            <input class="input-field" id="appointment-name" type="text" name="name" placeholder="Имя Фамилия" required minlength="5">
-          </p>
-          <p class="input-field4">
-            <label for="appointment-e-mail">Ваш e-mail:</label>
-            <input class="input-field" id="appointment-e-mail" type="text" name="e-mail" placeholder="email@example.com">
-          </p>
+          <div class="form-row">
+            <p class="input-field4">
+              <label class="modal-label" for="appointment-name">Ваше имя:</label>
+              <input class="input-field" id="appointment-name" type="text" name="name" placeholder="Имя Фамилия" required minlength="5">
+            </p>
+            <p class="input-field4">
+              <label class="modal-label" for="appointment-e-mail">Ваш e-mail:</label>
+              <input class="input-field" id="appointment-e-mail" type="text" name="e-mail" placeholder="email@example.com">
+            </p>
+          </div>
         </div>
         <p class="input-field4">
-          <label for="name">Текст письма:</label>
-          <textarea class="input-field1" name="text" id="name">Текст письма</textarea>
+          <label class="modal-label" for="name">Текст письма:</label>
+          <textarea class="input-field1" name="text" id="name">В свободной форме</textarea>
         </p>
         <button class="button input-field5" type="submit">Отправить</button>
       </form>
