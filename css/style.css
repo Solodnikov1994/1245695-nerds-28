@@ -30,7 +30,7 @@ body {
   min-width: 1160px;
   margin:0;
   padding: 0;
-  font-family: 'Roboto', 'Arial', sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: normal;
@@ -402,7 +402,6 @@ img {
   margin-bottom: 20px;
 }
 
-
 .information-text {
 	color: var(--basic-gray-dark);
   line-height: 24px;
@@ -760,11 +759,6 @@ img {
   width: 219px;
 }
 
-.address-map-holder:hover .modal-login {
-  opacity: 1;
-  outline: none;
-}
-
 .modal {
   position: fixed;
   top: 0;
@@ -1088,6 +1082,16 @@ margin-bottom: 30px;
   font-size: inherit;
 }
 
+.number {
+    -moz-appearance: textfield;
+}
+
+.number::-webkit-outer-spin-button,
+.number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .filters {
   padding-top: 5px;
 }
@@ -1350,7 +1354,6 @@ margin-bottom: 30px;
 
 .button9900 {
   width: 200px;
-  height: 50px;
   background: var(--basic-red-light);
   color: var(--basic-white);
   border-radius: 3px;
